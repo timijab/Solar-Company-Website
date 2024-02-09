@@ -1,0 +1,93 @@
+.containerer{
+    display: flex;
+    color: white;
+    margin-bottom: 15%;
+   
+}
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+}
+.nasa{
+    width: 100%;
+}
+
+.footer{
+    /* background-color: #1F2544; */
+    background-color: black;
+    background-position: center;
+    background-image: url('../images/new\ back.png');
+    color: white;
+ }
+ .logow{
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    padding-left: 10%;
+    padding-right: 10%;
+ }
+.team{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: transparent;   
+    border-color: white;
+    border-radius: 50px;
+}
+.team:hover{
+    cursor: pointer;
+}
+.hidden{
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+.show{
+    opacity: 1;
+}
+.footerrow{
+    padding-right: 15%;
+}
+.courtesy{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.footercontainer{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    text-align: center;
+    margin-left: 15%;
+}
+.courtesytwo{
+    align-self: center;
+}
+.courtesyone{
+    padding-right: 60%;
+}
+@media (max-width: 980px) {
+    .footercontainer{
+        display: none;
+    }
+    
+}
+.footerrow:hover{
+    color: antiquewhite;
+    cursor: pointer;
+}
+.linetwo{
+    border: 0px;
+    padding-top: 1px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.it{
+    padding-right: 10px;
+}
+.it:hover{
+    color: #637A9F;
+}

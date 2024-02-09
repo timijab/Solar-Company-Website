@@ -1,0 +1,81 @@
+/* we are developing for large screens */
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.header{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    /* just in case the background image doesnt load up */
+    background-color: #9BB8CD;
+    color: white;
+    background-image: url('../images/The\ Pros\ and\ Cons\ of\ Solar\ Energy\ in\ 2020.jpeg');
+    width: -webkit-fill-available;
+}
+.logo{
+    width: 5%;
+    border-radius: 100%;
+    padding-right: 10px;
+}
+.aodemarg{
+    padding-right: 30%;
+}
+.aodemarg:hover{
+    cursor: pointer;
+    color: antiquewhite;
+}
+.rest{
+    display: flex;
+    align-items: center;
+}
+#contents1:hover,#contents2:hover,#contents3:hover,#contents4:hover,#contents5:hover,#contents6:hover{
+    cursor: pointer;
+    color: bisque;
+}
+
+#contents1,#contents2,#contents3,#contents4,#contents5,#contents6{
+    padding-left: 50px;
+}
+
+.span{
+    padding: 10px;
+    border-radius: 10%;
+    /* border-width: thick solid;
+    border-color: white; */
+    border-width: 0px;
+    color: white;
+    background-image:url('../images/The\ Pros\ and\ Cons\ of\ Solar\ Energy\ in\ 2020.jpeg');
+
+}
+#small{
+    font-size: xx-small;
+    margin:0px;
+    
+}
+/* Responsive design for smaller screens */
+@media screen and (max-width: 1370px){
+    #contents6,.span{
+        display: none;
+    }
+}
+
+@media(max-width: 1137px) {
+    #contents5, #contents4{
+        display: none;
+    }
+}
+
+@media(max-width:784px) {
+    #contents4, #contents3{
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+ #contents2, #contents1{
+    display: none;
+ }
+}

@@ -1,0 +1,62 @@
+.containered{
+    display: flex;
+    color: #22668D;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
+    text-align: center;
+}
+
+@media (min-width: 480px) {
+    .pone{
+        padding: 10px;
+    }
+}
+.pone:hover{
+    border-bottom: 5px solid;
+    cursor: pointer;
+    border-color: rgb(74, 128, 128);
+}
+
+.display{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #154967;
+    padding-top: 20px;
+}
+
+.solaricon{
+    color: white;
+}
+.displayone{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #8ECDDD;
+    line-height: 2.0;
+}
+.displaybutton{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.buts{
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-color:#79a0aa;
+    color: white;
+    border-color:#79a0aa ;
+}
+.direction{
+    padding-bottom: 20px;
+    color: white;
+
+}
+.blue{
+   width: 80%;
+   padding-left: 10%;
+}

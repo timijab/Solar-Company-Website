@@ -1,0 +1,73 @@
+.middle{
+ padding-left: 10%;
+ padding-top: 5%;
+ padding-right: 10%;
+ padding-bottom: 2%;
+ background-image: url('../images/The\ Pros\ and\ Cons\ of\ Solar\ Energy\ in\ 2020.jpeg');
+
+}
+.text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.solution{
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15%;
+}
+.solution:hover{
+    background-color: rgb(255, 255, 255, 0.5);
+    color: white;
+}
+.middle2{
+    display: flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin-top: 30px;
+    padding-left: 20px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.row{
+    
+    padding-right: 20px;
+}
+.break2,.break1{
+    display: flex;
+}
+@media (max-width: 743px) {
+    .break2{
+        display: inline;
+    }   
+}
+@media (max-width: 567px) {
+    .middle2{
+        display: block;
+    }
+    .break2{
+        display: flex;
+    }
+}
+@media (max-width: 385px) {
+    .break2{
+        display: none;
+    }
+    .break1{
+        display: contents;
+    }
+}
+.one,.two,.three,.four,.five{
+    color: white;
+}
